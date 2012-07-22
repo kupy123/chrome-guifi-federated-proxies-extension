@@ -1,0 +1,54 @@
+{
+  "extName":  {
+    "message": "Selector de proxis federados de guifi.net",
+    "description": "The extension name."
+  },
+  "extDescription": {
+    "message": "Extensión selectora de Proxis Federados de guifi.net",
+    "description": "The extension description."
+  },
+  "headerDirectConnection": {
+    "message": "Conexión directa",
+    "description": "Header for 'Direct Connection' configuration `fieldset`."
+  },
+  "errorNoExtensionAccess": {
+    "message": "Lo sentimos. La configuración del proxy en este navegador no se puede controlar con esta extensión.",
+    "description": "Error message displayed when `levelOfControl` is 'not_controllable'."
+  },
+  "errorOtherExtensionControls": {
+    "message": "Lo sentimos. La configuración del proxy en este navegador está siendo controlada por otra extensión. Visite chrome://extensions para más información.",
+    "description": "Error message displayed when `levelOfControl` is 'controlled_by_other_extensions'."
+  },
+  "errorSettingRegularProxy": {
+    "message": "Lo sentimos. No ha sido posible establecer la configuración del proxy.",
+    "description": "Error message, displayed when failing to set regular proxy settings."
+  },
+  "errorSettingIncognitoProxy": {
+    "message": "Lo sentimos. No ha sido posible establecer la configuración del proxy de incógnito.",
+    "description": "Error message, displayed when failing to set incognito proxy settings."
+  },
+  "successfullySetProxy": {
+    "message": "La configuración del proxy ha sido establecida correctamente; esta ventana se cerrará automágicamente. ¡Disfruta!",
+    "description": "Success message, displayed after proxy settings have been written."
+  },
+  "errorPopupTitle": {
+    "message": "Error: $1",
+    "description": "Error message used as popup title."
+  },
+  "errorProxyError": {
+    "message": "ProxyError: $1.",
+    "description": "Error message displayed in popup when an error occurs."
+  },
+  "errorProxyDetailedError": {
+    "message": "ProxyError: $1. $2.",
+    "description": "Error message displayed in popup when an error occurs."
+  },
+  "errorIdNotFound": {
+    "message": "El elemento con ID `$1` no existe en el documento.",
+    "description": "Error message thrown when the given `id` doesn't exist"
+  },
+  "errorIdNotForm": {
+    "message": "El elemento con ID `$1` no se encuentra en un elemento form.",
+    "description": "Error message thrown when the given `id` isn't a form element."
+  }
+}

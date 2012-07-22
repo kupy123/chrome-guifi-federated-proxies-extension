@@ -1,15 +1,28 @@
 {
-  "name": "guifi.net federated proxies selector",
-  "version": "1.0",
-  "manifest_version": 2,
-  "description": "guifi.net Federated Proxies Easy Selector Extension",
+  "name": "__MSG_extName__",
+  "version": "0.71",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
   "browser_action": {
-    "default_icon": "icon_61x61.png",
-    "default_title": "guifi.net Federated Proxies Easy Selector",
-    "default_popup": "popup.html"
+    "default_icon": "icon_32x32.png",
+    "default_popup": "popup.html",
+    "default_title": "guifi.net Federated Proxies Easy Selector"
+  },
+  "icons": {
+    "16": "icon_16x16.png",
+    "32": "icon_32x32.png",
+    "48": "icon_48x48.png",
+    "128": "icon_128x128.png"
+  },
+  "background": {
+    "scripts": [
+      "proxy_form_controller.js",
+      "proxy_error_handler.js",
+      "background.js"
+    ]
   },
   "permissions": [
-    "http://api.flickr.com/",
     "proxy"
-  ]
+  ],
+  "manifest_version": 2
 }

@@ -1,0 +1,15 @@
+{
+  "name": "guifi.net federated proxies selector",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "guifi.net Federated Proxies Easy Selector Extension",
+  "browser_action": {
+    "default_icon": "icon_61x61.png",
+    "default_title": "guifi.net Federated Proxies Easy Selector",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://api.flickr.com/",
+    "proxy"
+  ]
+}
